@@ -1,0 +1,14 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 2rem;
+    background-color: rgb(53, 58, 64);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}

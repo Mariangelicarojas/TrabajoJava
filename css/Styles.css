@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 2rem;
+    background-color: rgb(53, 58, 64);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    filter: brightness(48%);
+}
+
+
+/* ORADORES */
+.oradores {
+    max-height: 200px;
+}
+
+/*FOOTER*/ 
+footer {
+    background-color: rgb(31, 78, 106);
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        text-align: center;
+        font-size: xx-small; 
+    }
+
+    .footer-links li {
+        display: inline-block;
+        margin: -6px -6px; 
+    }
+}
+
+/*Formulario*/
+@media (max-width: 768px) {
+    .form-container {
+      width: 90vw;
+    }
+  }
