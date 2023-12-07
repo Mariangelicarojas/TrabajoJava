@@ -9,6 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/tp_replica_final.css">
+    <link rel="stylesheet" href="./js/oradores.js">
 
 </head>
 
@@ -154,34 +155,39 @@
     <div id="text-abajo-01" class="container">
         <a name="SerOrador"></a>
         <figure class="text-center">
-            <blockquote class="blockquote">
-                <p id="text-01">CONVIÉRTETE EN UN</p>
-            </blockquote>
-            <figcaption class="blockquote">
-                <h2>ORADORES</h2>
-            </figcaption>
-            <figcaption class="blockquote">
-                <p>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!</p>
-            </figcaption>
+          <blockquote class="blockquote">
+            <p id="text-01">CONVIÉRTETE EN UN</p>
+          </blockquote>
+          <figcaption class="blockquote">
+            <h2>ORADOR</h2>
+          </figcaption>
+          <figcaption class="blockquote">
+            <p>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!</p>
+          </figcaption>
         </figure>
-    </div>
-
-    <div id="form" class="row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-        </div>
-        <div id="td3">
-            <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea2"
-                style="height: 100px"></textarea>
+      </div>
+    
+      <form>
+        <div id="form" class="row">
+          <div class="col">
+            <input id="nombre" class="form-control" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <input id="apellido" class="form-control" placeholder="Apellido" aria-label="Last name">
+          </div>
+          <div class="col-12">
+            <input id="mail" class="form-control" placeholder="Mail" aria-label="Mail">
+          </div>
+          <div class="col-12">
+            <input id="tema" class="form-control" style="height: 100px;" placeholder="Sobre qué quieres hablar?"></textarea>
             <div id="emailHelp" class="form-text">Recuerda incluir un título para tu charla</div>
+          </div>
+          <button id="btnGrabar" type="button" class="btn form-control text-white"
+            style="background-color: rgb(151, 201, 62)">
+            Enviar
+          </button>
         </div>
-        <div class="d-grid gap-2">
-            <a id="td4" class="btn btn-primary" type="button" href="#">Enviar</a>
-        </div>
-    </div>
+      </form>
 
     <footer class="container-fluid py-4">
         <div class="footer">
@@ -251,7 +257,7 @@
         </div>
 
 
-
+        <script src="/js/oradores.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
             integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
             crossorigin="anonymous"></script>
