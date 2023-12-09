@@ -1,0 +1,195 @@
+/* Estilo oradores */
+
+/* Navegador */
+#nav {
+  background: #353a40;
+  margin-top: -1%;
+  padding-top: -1%;
+  
+}
+
+/* Logo y título de la página web */
+#logo-titulo {
+  color: #fefdf3;
+  position: relative;
+  right: 4%;
+}
+
+/* Le doy margen izquierdo a logo */
+.margen {
+  margin-left: 5%;
+}
+
+/* Separo menú de título de página */
+#mov-menu {
+  margin-left: 20%;
+}
+
+/* Colores para enlaces del menú */
+.color-letras-menu {
+  color: #9a9ca1;
+}
+
+#letras-menu-mouse {
+  color: #fefdf3
+}
+
+#letras-menu-mouse:hover {
+  color: #919a9c;
+}
+
+#letras-comprar {
+  color: #2b9642;
+}
+
+#letras-comprar:hover {
+  color: #fefdf3;
+}
+
+@media (min-width: 1024px) {
+  #mov-menu {
+    margin-left: auto; 
+    font-size: 13px;
+    align-items: center; /* Alinear verticalmente en el centro */
+  }
+  #letras-menu-mouse {
+    font-size: 15px;
+  }
+  #letras-comprar {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    margin-right: 20px; /* Agregar espacio entre los elementos del menú */
+  }
+
+  #logo-titulo{
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1040px) {
+  #mov-menu {
+    margin-left: auto; 
+  font-size: 16px;}
+
+  #logo-titulo{
+    margin-left:15%;
+  }
+}
+
+/*Estilo de conviertete en orador*/
+
+@media (max-width: 768px) {
+  #text-abajo-01 {
+    text-align: center; /* Centrar el texto */
+  }
+
+  #text-01 {
+    font-size: 24px; /* Ajustar el tamaño del texto */
+  }
+
+  h2 {
+    font-size: 28px; /* Ajustar el tamaño del título */
+  }
+
+}
+
+/* Estilo de la lista de oradores (tabla) */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #151212;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: rgb(151, 201, 62);
+  color: #f3f3f3;
+  cursor: pointer;
+  font-stretch: extra-condensed;
+}
+
+.table th:hover {
+  background-color: #2980b9;
+}
+
+#usersRows {
+  margin-top: 00px;
+}
+
+/* Ajuste de la tabla para pantallas pequeñas */
+@media (max-width: 768px) {
+  #tablaOradores table {
+    width: 100%; /*tabla ocupe el ancho completo */
+  }
+
+  #tablaOradores th,
+  #tablaOradores td,
+  #tablaOradores thead,
+  #tablaOradores tbody,
+  #tablaOradores tr,
+  #tablaOradores th,
+  #tablaOradores td {
+    display: block; /* Cambiar a bloque para que los elementos se apilen verticalmente */
+  }
+
+  #tablaOradores thead tr {
+    position: absolute; /* Posicionar la fila del encabezado de la tabla */
+    top: -9999px; /* Mover la fila del encabezado fuera de la pantalla */
+    left: -9999px; /* Mover la fila del encabezado fuera de la pantalla */
+  }
+
+  #tablaOradores tbody tr {
+    border-bottom: 2px solid #ddd; /* Agregar bordes entre las filas */
+    margin-bottom: 10px; /* Añadir espacio entre las filas */
+  }
+
+  #tablaOradores td {
+    border: none; /* Eliminar bordes en las celdas */
+    display: flex; /* Usar el modelo de caja flexible para alinear el contenido */
+    justify-content: space-between; /* Alinear el contenido de las celdas */
+    padding: 10px; /* Agregar espacio interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+  }
+}
+
+/* Estilo del footer */
+footer {
+  background-color: rgb(31, 78, 106);
+  padding: 1px 0;
+  margin-top: 100px;
+}
+.footer-navbar .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.footer-navbar .navbar-toggler-icon {
+  background-color: #828280dd;
+}
+
+.navbar-toggler-icon {
+  background-color: #828280dd; /* Ajusta el color de fondo según tus necesidades */
+}
+
+/* Ajustes para pantallas más grandes (mayores a 1024 píxeles) */
+@media (min-width: 1025px) {
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0;
+    margin: 0 20px;
+  }
+}
+/* Tabla manipulación para ocultar */
+#tablaOradores {
+  display: none;
+}

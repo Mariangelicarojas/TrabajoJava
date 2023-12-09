@@ -12,3 +12,33 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Estilo del footer */
+footer {
+    background-color: rgb(31, 78, 106);
+    padding: 1px 0;
+    margin-top: 100px;
+  }
+  .footer-navbar .navbar-nav .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .footer-navbar .navbar-toggler-icon {
+    background-color: #828280dd;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #828280dd; /* Ajusta el color de fondo según tus necesidades */
+  }
+  
+  /* Ajustes para pantallas más grandes (mayores a 1024 píxeles) */
+  @media (min-width: 1025px) {
+    .navbar-nav {
+      justify-content: center;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0;
+      margin: 0 20px;
+    }
+  }

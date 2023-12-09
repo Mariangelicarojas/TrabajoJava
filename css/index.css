@@ -1,5 +1,5 @@
 
-/*Le doy estilos a la barra del nav*/
+/*Le doy estilos a la barra del navegador*/
 
 .centrado_perfecto {
     display: flex;
@@ -22,7 +22,6 @@
     position: relative;
     right: 1%;
 }
-
 
 /*Le doy margen izquierdo a logo*/
 
